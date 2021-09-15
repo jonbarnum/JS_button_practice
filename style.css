@@ -58,51 +58,42 @@ p {
     text-align: center;
 }
 
-/* .stopWatch {
+#stopWatch {
     display: flex;
     justify-content: space-around;
     margin: 30px 0px 0px 0px;
 }
 
-#start {
-    background-color: red;
-    padding: 50px;
-    border-style: solid;
-    border-width: 4px;
-}
-
-#stop {
+#startButton {
     background-color: aquamarine;
     padding: 50px;
     border-style: solid;
     border-width: 4px;
+    font-size: 20px;
+
 }
 
-#stopWatchReset {
+#stopButton {
+    background-color: aquamarine;
+    padding: 50px;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 20px;
+}
+
+#resetButton {
     background-color: peru;
     padding: 50px;
     border-style: solid;
     border-width: 4px;
+    font-size: 20px;
 }
 
-#stopWatchReader {
+#time {
     background-color: gold;
     padding: 50px;
     border-style: solid;
     border-width: 4px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;   
 }
-
-#startTime {
-    font-size: 20px;
-}
-
-#stopTime {
-    font-size: 20px;
-}
-
-#clearStopWatch {
-    font-size: 20px;
-} */
-

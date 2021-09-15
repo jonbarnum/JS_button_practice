@@ -6,42 +6,40 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
+    <header>
         <h1>Clicker Counter</h1>
-    </section>
-    <section id="mainSection">
-        <div id="buttonUp">
-            <button type="button" onclick="incrementCounter ()" id="countUp">Click To Count Up</button>
+    </header>
+    <main>
+        <div id="mainSection">
+            <div id="buttonUp">
+                <button type="button" onclick="incrementCounter ()" id="countUp">Click To Count Up</button>
+            </div>
+            <div id="buttonDown">
+                <button type="button" onclick="decrementCounter ()" id="countDown">Click To Count Down</button>
+            </div>
+            <div id="reset">
+                <button type="button" onclick="reset ()" id="resetClick">Reset</button>
+            </div>
+            <div id="readOut">Read Out</div>
         </div>
-        <div id="buttonDown">
-            <button type="button" onclick="decrementCounter ()" id="countDown">Click To Count Down</button>
+        <div id="stopWatch">
+            <div id="startButton">
+                <button type="button" id="start">Start Time</button>
+            </div>
+            <div id="stopButton">
+                <button type="button" id="stop">Stop Time</button>
+            </div>
+            <div id="resetButton">
+                <button type="button" id="clear">Reset Time</button>
+            </div>
+            <div>
+                <div id="time">Timer <br><span id="hour">00:</span><span id="minute">00:</span><span id="seconds">00:</span><span id="milliseconds">00</span></div>
+            </div>
         </div>
-        <div id="reset">
-            <button type="button" onclick="reset ()" id="resetClick">Reset</button>
-        </div>
-        <div id="readOut">Read Out</div>
-    </section>
-    <!-- <section class="stopWatch">
-        <div id="start">
-            <button type="button" onclick="start ()" id="startTime">Start Time</button>
-        </div>
-        <div id="stop">
-            <button type="button" onclick="stop ()" id="stopTime">Stop Time</button>
-        </div>
-        <div id="stopWatchReset">
-            <button type="button" onclick="clearTime ()" id="clearStopWatch">Reset Time</button>
-        </div>
-        <div id="stopWatchReader">Timer
-            <div id="time">00:00:00</div>
-        </div>
-    </section> -->
-    <section>
+    </main>
         <footer>
             <p>Created by Jon</p>
         </footer>
-    </section>
-
-    <script src="javascript.js"></script>
-
 </body>
+<script src="javascript.js"></script>
 </html>
